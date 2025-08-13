@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "TESLA";
+  src: url('./assets//fonts/TESLA.ttf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+
+
+.tesla-header{
+  font-family: 'TESLA';
+}
+
+.calculator {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  
+  .radio-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+ 
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  .result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .result h2 {
+    color: #10b981;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .CustomBattery {
+    border-radius: 10px;
+    background-color: #f19797;
+
+  }
+
+  .info:hover {
+    cursor: pointer;
+    color: #00000036;
+  }
+
+  .info-icon {
+    height: 1.5rem;
+  }
+
+
+
+
+  
+@media screen and (max-width:768px) {
+  .calculator {
+    max-width: 90%;
+  }
+  .result {
+    font-size: .8rem;
+
+  }
+
+  .result p {
+    border-bottom: 1px solid rgba(192, 192, 192, 0.76);
+    padding-bottom: .5em;
+  }
+
+  .info-icon {
+    height: 1.5rem;
+  }
+}
+
