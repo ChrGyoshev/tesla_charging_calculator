@@ -28,7 +28,7 @@ function App() {
     m3standard: 57.5,
     m3longrange: 75,
     m3performance: 82,
-    chrisModel3: 67,
+    chrisModel3: 66,
     // Model Y
     mystandard: 60,
     mylongrange: 75,
@@ -100,7 +100,7 @@ function App() {
                 <option value="m3longrange">Long Range (75 kWh)</option>
                 <option value="m3performance">Performance (82 kWh)</option>
                 <option value="chrisModel3">
-                  Chris Model 3 LR 2021 (67kWh)
+                  Model 3 LR 2021 10% degradation (66kWh)
                 </option>
               </optgroup>
               {/* Model Y */}
@@ -173,6 +173,7 @@ function App() {
               <optgroup label="Public Charging">
                 <option value="0.69">Fines (0.69 BGN)</option>
                 <option value="0.70">Electrip (0.70 BGN)</option>
+                <option value="0.75">Tesla Supercharger Bulgaria </option>
                 <option value="0.90">ElDrive (0.90 BGN)</option>
               </optgroup>
             </select>
