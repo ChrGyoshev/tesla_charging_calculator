@@ -100,7 +100,7 @@ function App() {
                 <option value="m3longrange">Long Range (75 kWh)</option>
                 <option value="m3performance">Performance (82 kWh)</option>
                 <option value="chrisModel3">
-                  Model 3 LR 2021 10% degradation (66kWh)
+                  Model 3 LR 2021 ~10% degradation (66kWh)
                 </option>
               </optgroup>
               {/* Model Y */}
