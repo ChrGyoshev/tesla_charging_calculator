@@ -12,7 +12,7 @@ function App() {
   const [model, setModel] = useState("chrisModel3");
   const [currentCharge, setCurrentCharge] = useState("0");
   const [desiredCharge, setDesiredCharge] = useState("0");
-  const [costPerKWH, setCostPerKWH] = useState(0.29);
+  const [costPerKWH, setCostPerKWH] = useState(0.17);
   const [cost, setCost] = useState(0);
   const [neededCapacity, setNeededCapacity] = useState(0);
   const [customBatterySize, setCustomBatterySize] = useState(0);
