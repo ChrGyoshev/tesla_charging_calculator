@@ -175,8 +175,8 @@ function App() {
               <optgroup label="Public Charging">
                 <option value="0.69">Fines (0.69 BGN)</option>
                 <option value="0.70">Electrip (0.70 BGN)</option>
-                <option value="0.75">
-                  Tesla Supercharger Bulgaria (0.75 BGN){" "}
+                <option value="0.71">
+                  Tesla Supercharger Bulgaria (0.71 BGN){" "}
                 </option>
                 <option value="0.90">ElDrive (0.90 BGN)</option>
               </optgroup>
