@@ -9,10 +9,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
-  const [model, setModel] = useState("S75");
+  const [model, setModel] = useState("chrisModel3");
   const [currentCharge, setCurrentCharge] = useState("0");
   const [desiredCharge, setDesiredCharge] = useState("0");
-  const [costPerKWH, setCostPerKWH] = useState(0.29);
+  const [costPerKWH, setCostPerKWH] = useState(0.17);
   const [cost, setCost] = useState(0);
   const [neededCapacity, setNeededCapacity] = useState(0);
   const [customBatterySize, setCustomBatterySize] = useState(0);
@@ -28,7 +28,7 @@ function App() {
     m3standard: 57.5,
     m3longrange: 75,
     m3performance: 82,
-    chrisModel3: 67,
+    chrisModel3: 66,
     // Model Y
     mystandard: 60,
     mylongrange: 75,
@@ -88,21 +88,23 @@ function App() {
           <div className="form-group">
             <label>Model:</label>
             <select value={model} onChange={(e) => setModel(e.target.value)}>
-              {/* Model S */}
-              <optgroup label="Model S">
-                <option value="S75">Model S 75D (75 kwh)</option>
-                <option value="S85">Model S 85D (85 Kwh)</option>
-                <option value="S100">Model S 100D (100 Kwh)</option>
-              </optgroup>
               {/* Model 3 */}
               <optgroup label="Model 3">
                 <option value="m3standard">Standard Range (57.5 kWh)</option>
                 <option value="m3longrange">Long Range (75 kWh)</option>
                 <option value="m3performance">Performance (82 kWh)</option>
                 <option value="chrisModel3">
-                  Chris Model 3 LR 2021 (67kWh)
+                  Model 3 LR 2021 ~10% degradation (66kWh)
                 </option>
               </optgroup>
+
+              {/* Model S */}
+              <optgroup label="Model S">
+                <option value="S75">Model S 75D (75 kwh)</option>
+                <option value="S85">Model S 85D (85 Kwh)</option>
+                <option value="S100">Model S 100D (100 Kwh)</option>
+              </optgroup>
+
               {/* Model Y */}
               <optgroup label="Model Y">
                 <option value="mystandard">Standard Range (60 Kwh)</option>
@@ -173,6 +175,9 @@ function App() {
               <optgroup label="Public Charging">
                 <option value="0.69">Fines (0.69 BGN)</option>
                 <option value="0.70">Electrip (0.70 BGN)</option>
+                <option value="0.71">
+                  Tesla Supercharger Bulgaria (0.71 BGN){" "}
+                </option>
                 <option value="0.90">ElDrive (0.90 BGN)</option>
               </optgroup>
             </select>
