@@ -178,7 +178,7 @@ function App() {
                 <option value="0.71">
                   Tesla Supercharger Bulgaria (0.71 BGN){" "}
                 </option>
-                <option value="0.90">ElDrive (0.90 BGN)</option>
+                <option value="0.90">Eldrive (0.90 BGN)</option>
               </optgroup>
             </select>
           </div>
